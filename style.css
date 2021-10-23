@@ -1,0 +1,211 @@
+*{
+    font-family: sans-serif;
+    font-weight:700;
+}
+
+body{
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+#white{
+    background:#9A938C;
+    border-radius:60px;
+    border:.5px solid white;
+    height:550px;
+    width:250px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    overflow:hidden;
+}
+
+#blue{
+    background:black;
+    border-radius:70px;
+    border:.5px solid white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    top:20px;
+    height:600px;
+    width:300px;
+}
+
+.button{
+    background:#9A938C;
+    width:80px;
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:0px;
+    height:38.5px;
+}
+
+
+#top_buttons{
+    height:80px;
+    width:100%;  
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+
+#down_buttons{
+    height:175px;
+    width:100%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content:center;
+    place-items: center;
+    align-items: center;
+}
+
+
+#game_container{
+    background:black;
+    position:relative;
+    border:.5px solid white;
+    top:10px;
+    height:240px;
+    width:80%;   
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
+    border-radius:15px;
+}
+
+.brand{
+    color:white;
+    text-transform:uppercase;
+    position:relative;
+    top:10px;
+}
+
+#game{
+    background:#959E1E;
+    height:180px;
+    width:180px;
+    position:relative;
+    bottom:15px;
+    border:1px solid white;
+}
+
+.btn1{
+    height:60px;
+    width:30%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a{
+    height:25px;
+    width:80%;
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.aa{
+    width:80%;
+    height:10px;
+    background:black;
+    border-radius:10px;
+}
+
+.b{
+    height:25px;
+    width:80%;
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.bb{
+    border-top:5px solid #217339;
+    border-right:5px solid #217339;
+    border-left:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-radius:50%;
+    height:10px;
+    width:10px;
+    transform:rotate(-45deg);
+    position:relative;
+    top:5px;
+}
+
+.btn2{
+    border:1px solid black;
+    height:60px;
+    width:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn3{
+    height:60px;
+    width:30%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.c{
+    width:80%;
+    height:80%;
+    border:1px solid black;
+}
+
+.d{
+    height:25px;
+    width:80%;
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.dd{
+    width:80%;
+    height:10px;
+    background:black;
+    border-radius:10px;
+}
+
+.e{
+    height:25px;
+    width:80%;
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.ee{
+    border-top:5px solid red;
+    border-right:5px solid red;
+    border-left:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-radius:50%;
+    height:10px;
+    width:10px;
+    transform:rotate(-45deg);
+    position:relative;
+    top:5px;
+}
