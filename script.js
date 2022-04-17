@@ -1,5 +1,6 @@
 const canvas = document.getElementById("game");
-const ctx=canvas.getContext("2d");
+const ctx = canvas.getContext("2d");
+
 const buttons = document.getElementsByClassName("button");
 
 
@@ -173,7 +174,7 @@ function spawn_food()
 
 function collision_detection()
 {
-    if(x === xfood && y === yfood)
+    if( x === xfood && y === yfood )
     {
         xfood=Math.floor(Math.random() * (count/2 -3));
         yfood=Math.floor(Math.random() * (count/2 -3));
